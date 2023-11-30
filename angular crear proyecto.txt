@@ -1,0 +1,23 @@
+npm install -g npm@latest
+npm cache clean --force
+npm set audit false
+
+npm uninstall -g angular-cli
+
+npm uninstall -g angular/cli
+npm install -g @angular/cli@latest
+//crear proyecto
+ng new
+//crear componentes
+ng g component components/peliculas
+
+//crear componente
+ng g component components/nombredelcomponente
+//subir archivo
+npm install --save angular-file-uploader
+//ejecutar angular 
+ng server
+//alertas angular 
+npm install sweetalert --save
+//instalar libreria upload file angular 
+npm install --save --force angular-file-uploader
